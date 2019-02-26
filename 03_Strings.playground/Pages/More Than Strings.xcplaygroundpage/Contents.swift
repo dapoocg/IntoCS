@@ -15,9 +15,11 @@ let goalieReportString = "At the game yesterday, \(goalieName) had \(firstHalfSa
     Sample story: “Today was a big day for <name>. They had finally saved up <number> dollars and were going to buy a <adjective> <noun>. They went to the <noun> <place> feeling very <positive emotion>. But then they felt <negative emotion>. They were all out of <noun>!”
 */
 // Add your version of the story below
-
-
-
+let pointGuardName = "David"
+let pointsInFirstHalf = 0
+let pointsInSecondHalf = 0
+let careerPoints = pointsInFirstHalf + pointsInSecondHalf
+let gameReport = "At the Blake Boys basketball game yesterday \(pointGuardName) had \(pointsInFirstHalf) in the first half, \(pointsInSecondHalf) in the second half for a total of \(pointsInFirstHalf + pointsInSecondHalf) bring his career total to 0"
 //:
 //:
 //: Next you’ll see a few more tricks with strings.

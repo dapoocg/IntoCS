@@ -6,7 +6,7 @@
 //: You don't use blank spaces as placeholders in Swift. You use `\(name)`. The value of `name` replaces the placeholder.
 //:
 //: Here it is in action. Notice in the results sidebar that the values of firstName and city are filled in:
-let firstName = "Tim"
+let firstName = "David"
 let city = "Cupertino"
 
 let welcomeString = "Hello \(firstName), welcome to \(city)"
@@ -14,14 +14,14 @@ let welcomeString = "Hello \(firstName), welcome to \(city)"
 //: “I like _____ because it is _____.”
 //:
 // Change this to your favorite food
-let favoriteFood = "pie"
+let favoriteFood = "bagels"
 
 // Change this to why you like it
 let reason = "tasty"
 
 // Define a string below in the pattern "I like ___ because it is ___."
 
-
+let pattern = "Hello my name is David Bix and I like \(favoriteFood) because they are \(reason)"
 //: On the next page, see what happens with long strings.
 //:
 //:[Previous](@previous)  |  page 7 of 16  |  [Next: Viewing Playground Results](@next)
